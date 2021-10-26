@@ -13,10 +13,10 @@ class RegisterPage extends StatelessWidget {
     return Scaffold(
         backgroundColor: const Color(0xffF2F2F2),
         body: SafeArea(
-          child: SizedBox(
-            height: MediaQuery.of(context).size.height,
-            child: SingleChildScrollView(
-              physics: const BouncingScrollPhysics(),
+          child: SingleChildScrollView(
+            physics: const BouncingScrollPhysics(),
+            child: SizedBox(
+              height: MediaQuery.of(context).size.height,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
